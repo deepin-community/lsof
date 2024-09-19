@@ -2,7 +2,7 @@ Source: lsof
 Section: utils
 Priority: standard
 Maintainer: Andres Salomon <dilinger@debian.org>
-Build-Depends: debhelper-compat (= 12), libselinux1-dev [linux-any]
+Build-Depends: debhelper-compat (= 12), libselinux1-dev [linux-any], libtirpc-dev
 Standards-Version: 4.6.0.1
 Homepage: https://github.com/lsof-org/lsof
 

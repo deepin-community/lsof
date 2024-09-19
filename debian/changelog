@@ -1,8 +1,10 @@
-lsof (4.95.0-1deepin1) unstable; urgency=medium
+lsof (4.95.0-1.1) unstable; urgency=medium
 
-  * fix: lintian error
+  * Non-maintainer upload.
+  * debian/control: Add libtirpc-dev to Build-Depends (Closes: #1065283,
+    #1063461)
 
- -- Deepin Packages Builder <packages@deepin.org>  Fri, 12 May 2023 10:36:52 +0800
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 10 Mar 2024 12:43:21 +0100
 
 lsof (4.95.0-1) unstable; urgency=low
 
